@@ -17,3 +17,25 @@ ul{
   width: 240px;
   height: 120px;
 }
+.wrap{
+  width: 90px;
+  overflow-wrap: break-word;
+   background: #00FFFF;
+   color: #000000;
+}
+.gradient{
+  width: 200px;
+  height: 200px;
+  background-color: #DC143C;
+  background: repeating-radial-gradient(rgba( 255, 255, 255, 0)#DC143C 30%);
+  background: -webkit-repeating-radial-gradient(rgba(255, 255, 255, 0) #DC143C 30%);
+  border-width: 20%;
+  border-style: solid;
+}
+.classname{
+  transition: height 2s, width 5s, transform 5s;
+}
+.classname:hover{
+  transform: rotate(900deg);
+  background-color: #DC143C;
+}
