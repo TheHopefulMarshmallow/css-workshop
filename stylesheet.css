@@ -43,3 +43,16 @@ ul{
   height: 200px;
   width: 200px;
 }
+.resizeable{
+  width: 200px;
+  height: 200px;
+  background-color: #DC143C;
+  overflow: auto;
+  resize: both;
+}
+.text-decoration{
+  text-decoration-style: double;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-position: right;
+}
