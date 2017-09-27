@@ -39,3 +39,7 @@ ul{
   transform: rotate(900deg);
   background-color: #DC143C;
 }
+.img-o{
+  height: 200px;
+  width: 200px;
+}
